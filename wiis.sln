@@ -1,9 +1,36 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7FC7C349-E943-4C9D-910E-2DB5E20AE7C3}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wiis.Core", "src\core\Wiis.Core\Wiis.Core.csproj", "{5060931F-18D7-47B5-8A21-806629790082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wiis.Local", "src\core\Wiis.Local\Wiis.Local.csproj", "{7DB8244D-C4AC-4674-A714-9FFBD29D9688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wiis.Web", "src\core\Wiis.Web\Wiis.Web.csproj", "{FC00AFE1-A0C0-4391-B2D4-BF42BAB4938C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5060931F-18D7-47B5-8A21-806629790082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5060931F-18D7-47B5-8A21-806629790082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5060931F-18D7-47B5-8A21-806629790082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5060931F-18D7-47B5-8A21-806629790082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DB8244D-C4AC-4674-A714-9FFBD29D9688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB8244D-C4AC-4674-A714-9FFBD29D9688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB8244D-C4AC-4674-A714-9FFBD29D9688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB8244D-C4AC-4674-A714-9FFBD29D9688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC00AFE1-A0C0-4391-B2D4-BF42BAB4938C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC00AFE1-A0C0-4391-B2D4-BF42BAB4938C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC00AFE1-A0C0-4391-B2D4-BF42BAB4938C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC00AFE1-A0C0-4391-B2D4-BF42BAB4938C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
